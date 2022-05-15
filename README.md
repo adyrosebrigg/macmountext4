@@ -6,13 +6,13 @@
 
 I wanted to automount my Linux disk at boot, so I made a little script to do that.
 
-This tool will attempt to mount any volume that's seen by `diskutil` as having a '`Linux Filesystem`'. It does this through `[ext4fuse](https://github.com/gerard/ext4fuse)`, a read-only ext4 plugin for `[macFUSE](https://osxfuse.github.io/)`.
+This tool will attempt to mount any volume that's seen by `diskutil` as having a '`Linux Filesystem`'. It does this through [`ext4fuse`](https://github.com/gerard/ext4fuse), a read-only ext4 plugin for [`macFUSE`](https://osxfuse.github.io/).
 
 ## Getting Started
 
 ### Dependencies
 
-I've included a script to install any dependencies using `[Homebrew](https://brew.sh/)` (including Homebrew itself, if you don't already have it); however you can also install these manually. What's needed:
+I've included a script to install any dependencies using [`Homebrew`](https://brew.sh/) (including Homebrew itself, if you don't already have it); however you can also install these manually. What's needed:
 
 * macOS (Monterey tested; others tbd.)
 
@@ -48,13 +48,12 @@ The main script, `macmountext4.command`, is non-interactive. No arguments are ne
 ./macmountext4.command
 ```
 
-It will present some basic info about what's being done; here's what a successful mount looks like:
-
-#TODO add screenshot
+It will present some basic info about what's being done; here's what a successful mount looks like:  
+![Screen Shot 2022-05-15 at 6 24 43 AM](https://user-images.githubusercontent.com/615609/168471985-c916b028-b51e-4b5b-ac28-7f4ebcc28a79.png)
 
 If something fails, you'll get a bit of info on that too:
 
-#TODO add screenshot
+![Screen Shot 2022-05-15 at 6 40 32 AM](https://user-images.githubusercontent.com/615609/168471968-11fef435-2085-4c8f-bc39-8edfcb0ebccc.png)
 
 Once your volumes are mounted, they should be available for read-only access at `/Volumes/` or in the Finder.
 
@@ -64,7 +63,7 @@ Once your volumes are mounted, they should be available for read-only access at 
 
 ## What's next?
 
-* I want to add a `[launchd](https://www.launchd.info/)` file at some point so this can be configured to autorun at boot; that's a project for another day.
+* I want to add a [`launchd`](https://www.launchd.info/) file at some point so this can be configured to autorun at boot; that's a project for another day.
 
 ## Authors
 
