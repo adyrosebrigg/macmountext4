@@ -47,6 +47,7 @@ The main script, `macmountext4.command`, is non-interactive. No arguments are ne
 ```shell
 ./macmountext4.command
 ```
+If do you want to change the mount path (by default is `/Volumes`), just replace the variable `location` in the `macmountext4.command` file.
 
 It will present some basic info about what's being done; here's what a successful mount looks like:  
 ![Screen Shot 2022-05-15 at 6 24 43 AM](https://user-images.githubusercontent.com/615609/168471985-c916b028-b51e-4b5b-ac28-7f4ebcc28a79.png)
