@@ -47,6 +47,7 @@ The main script, `macmountext4.command`, is non-interactive. No arguments are ne
 ```shell
 ./macmountext4.command
 ```
+If do you want to change the mount path (by default is `/Volumes`), just replace the variable `location` in the `macmountext4.command` file.
 
 It will present some basic info about what's being done; here's what a successful mount looks like:  
 ![Screen Shot 2022-05-15 at 6 24 43 AM](https://user-images.githubusercontent.com/615609/168471985-c916b028-b51e-4b5b-ac28-7f4ebcc28a79.png)
@@ -67,13 +68,18 @@ Once your volumes are mounted, they should be available for read-only access at 
 
 ## Authors
 
-little ole me (AdyRosebrigg)
+little ole me ([AdyRosebrigg](https://github.com/adyrosebrigg))
+
+Possamai ([gabrielpossamai](https://github.com/gabrielpossamai))
 
 ## Version History
 
 * 0.1
-  
   * Initial commit
+  
+* 0.2
+  * Added mount path variable
+  * Support for newer versions of macOS
 
 ## License
 
