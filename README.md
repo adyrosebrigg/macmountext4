@@ -68,13 +68,18 @@ Once your volumes are mounted, they should be available for read-only access at 
 
 ## Authors
 
-little ole me (AdyRosebrigg)
+little ole me ([AdyRosebrigg](https://github.com/adyrosebrigg))
+
+Possamai ([gabrielpossamai](https://github.com/gabrielpossamai))
 
 ## Version History
 
 * 0.1
-  
   * Initial commit
+  
+* 0.2
+  * Added mount path variable
+  * Support for newer versions of macOS
 
 ## License
 
