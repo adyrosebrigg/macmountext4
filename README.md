@@ -1,3 +1,5 @@
+**NOTICE: I have archived this repository along with most of my others because I no longer have time to maintain them. Feel free to fork per the licence of any given repo, and have fun! Hope you can put the code to good use.**
+
 # macmountext4
 
  A script to automatically mount Linux disks in macOS with ext4fuse.
